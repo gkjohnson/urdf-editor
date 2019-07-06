@@ -2,6 +2,9 @@
 Text editor for viewing and modifying URDF models.
 
 ## Ideas
+**Problems**
+- Xacro does not simply map to a URDF file so it may be difficult to enable editing a Xacro file visually. It would all be editing the file then seeing results.
+
 **Web-based editor**
 - Drag and drop mechanism for adding URDF files, models.
 - Re-instantiate URDF model on change of the text editor.
