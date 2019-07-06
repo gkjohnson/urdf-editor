@@ -4,6 +4,7 @@ Text editor for viewing and modifying URDF models.
 ## Ideas
 **Problems**
 - Xacro does not simply map to a URDF file so it may be difficult to enable editing a Xacro file visually. It would all be editing the file then seeing results.
+- If xacro data were mapped to the resulting joint configurations or generated parameters then at least you might be able to click on a joint and see what was used to generate the values associated with it and edit those causing ripple effects onto other models.
 
 **Web-based editor**
 - Drag and drop mechanism for adding URDF files, models.
